@@ -326,7 +326,7 @@ Simple, display one type of message::
         echo '<div class="flash-error">'.$message.'</div>';
     }
 
-Compact method to process display all flashes at once::
+Compact method to process and display all flashes at once::
 
     foreach ($session->getFlashBag()->all() as $type => $messages) {
         foreach ($messages as $message) {
